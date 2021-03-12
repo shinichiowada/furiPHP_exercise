@@ -6,17 +6,17 @@ $team_c = ["スライム", "ドラゴン", "魔王"];
 $all_teams = [$team_a, $team_b, $team_c];
 
 
-$teams = [
-    ["勇者", "戦士", "魔法使い"],
-    ["盗賊", "忍者", "商人"],
-    ["スライム", "ドラゴン", "魔王"],
-];
+// $teams = [
+//     ["勇者", "戦士", "魔法使い"],
+//     ["盗賊", "忍者", "商人"],
+//     ["スライム", "ドラゴン", "魔王"],
+// ];
 
-foreach ($teams as $team) {
+foreach ($all_teams as $team) {
     foreach ($team as $member) {
-        echo $member;
+        echo $member . "\n";
 
-        echo "\n";
+        // echo "\n";
     }
 }
 
