@@ -3,7 +3,6 @@
 function createMsg($member, $enemy, $damage)
 {
     $msg = <<< EOM
-
     {$member}は,
     {$enemy}に攻撃した。
 
