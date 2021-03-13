@@ -6,9 +6,7 @@ $team_c = ["スライム", "ドラゴン", "魔王"];
 $all_teams = [$team_a, $team_b, $team_c];
 
 foreach ($all_teams as $team) {
-
     foreach ($team as $member) {
-
         echo $member . "\n";
     }
 }
